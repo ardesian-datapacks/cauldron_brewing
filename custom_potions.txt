@@ -1,0 +1,24 @@
+Add sections in these files for custom potions:
+
+(*poof* of particles when the item is successfully added -- make sure to set color)
+/functions/particles/successful_brew.mcfunction
+[ ] Color
+[ ] Tag name
+
+(particles when the cauldron is bubbling -- make sure to set color)
+/functions/particles/cauldron_effect.mcfunction
+[ ] Color
+[ ] Tag name
+
+(`give` function when collecting with a bottle)
+/functions/cauldron/fill_bottle.mcfunction
+[ ] Tag name
+[ ] Normal effect
+[ ] Long effect
+[ ] Strong effect
+
+(Recipe for potion -- might be `brew_additive` or `brew_plain` depending on which point your custom recipe differs)
+/functions/cauldron/brew_awkward.mcfunction
+[ ] Item used to brew
+[ ] Success status
+[ ] Tag name
